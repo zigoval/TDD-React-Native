@@ -29,10 +29,10 @@ describe('HomeScreen', () => {
       const wrapper = render(<HomeScreen />);
       wrapper.getByText('Jan 01, 2000');
     });
-    describe('Should contain current day', () => {
+    test('Should contain current day', () => {
       const wrapper = render(<HomeScreen />);
       //expect(wrapper.getByTestId('day').props.children).toBe('Friday');
-      wrapper.getByText('Friday');
+      wrapper.getByText('Saturday');
     });
   });
   test('Should contain a section to get current weather', () => {
