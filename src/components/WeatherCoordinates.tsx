@@ -6,7 +6,7 @@ interface Props {}
 const WeatherCoordinates = (props: Props) => {
   return (
     <View testID="weather-coordinates">
-      <Text></Text>
+      <Text>Or</Text>
     </View>
   );
 };

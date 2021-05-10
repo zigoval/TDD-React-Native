@@ -11,7 +11,7 @@ describe('Button', () => {
     const wrapper = render(<Button label="" onPress={jest.fn()} loading />);
     wrapper.getByTestId('button-loading');
   });
-  test('Should cll given onPress when clicked', () => {
+  test('Should call given onPress when clicked', () => {
     const mockOnPress = jest.fn();
     const wrapper = render(<Button label="" onPress={mockOnPress} />);
     const button = wrapper.getByTestId('button');
@@ -19,7 +19,7 @@ describe('Button', () => {
     fireEvent.press(button);
     expect(mockOnPress).toHaveBeenCalled();
   });
-  test('Should render laber', () => {
+  test('Should render label', () => {
     const wrapper = render(<Button label="mock-label" onPress={jest.fn()} />);
     wrapper.getByText('mock-label');
   });

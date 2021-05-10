@@ -16,7 +16,7 @@ const RootStack = createStackNavigator<RootStackParamList>();
 function AppNavigator() {
   return (
     <NavigationContainer>
-      <RootStack.Navigator screenOptios={{ headerShown: false }}>
+      <RootStack.Navigator screenOptions={{ headerShown: false }}>
         <RootStack.Screen name="Home" component={HomeScreen} />
         <RootStack.Screen name="Weather" component={WeatherScreen} />
       </RootStack.Navigator>
