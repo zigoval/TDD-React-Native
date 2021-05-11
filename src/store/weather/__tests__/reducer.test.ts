@@ -25,7 +25,7 @@ describe('Store/weather', () => {
       temperature: 10,
       windSpeed: 10,
     };
-    test('should return initialState', async () => {
+    test('should return initialState', () => {
       const state = reducer(undefined, { type: '@@INIT' });
       expect(state).toEqual(initialState);
     });
