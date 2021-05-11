@@ -1,7 +1,9 @@
 import React from 'react';
-import { fireEvent, render, waitFor } from '@testing-library/react-native';
-import WeatherCoordinates from '../WeatherCoordinates';
+
 import { useNavigation } from '@react-navigation/native';
+import { fireEvent, render, waitFor } from '@testing-library/react-native';
+
+import WeatherCoordinates from '../WeatherCoordinates';
 
 jest.mock('@react-navigation/native', () => {
   return {

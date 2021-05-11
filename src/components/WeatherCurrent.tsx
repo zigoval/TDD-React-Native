@@ -1,9 +1,11 @@
-import { useNavigation } from '@react-navigation/native';
 import React, { useCallback, useState } from 'react';
-import Button from './Button';
-import LocationService from '../services/LocationService';
 import { StyleSheet } from 'react-native';
+
+import { useNavigation } from '@react-navigation/native';
+
 import { Colors } from '../constants';
+import LocationService from '../services/LocationService';
+import Button from './Button';
 
 interface Props {}
 

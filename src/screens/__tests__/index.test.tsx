@@ -1,10 +1,11 @@
-import { render, waitFor } from '@testing-library/react-native';
 import React, { useEffect } from 'react';
 import { View } from 'react-native';
 
+import { useNavigation } from '@react-navigation/native';
+import { render, waitFor } from '@testing-library/react-native';
+
 import AppNavigator from '../';
 import HomeScreen from '../HomeScreen';
-import { useNavigation } from '@react-navigation/native';
 import WeatherScreen from '../WeatherScreen';
 
 jest.mock('../HomeScreen', () => jest.fn());

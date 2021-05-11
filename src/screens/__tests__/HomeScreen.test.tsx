@@ -1,9 +1,11 @@
 import React from 'react';
-import { render } from '@testing-library/react-native';
-import HomeScreen from '../HomeScreen';
 import { View } from 'react-native';
-import WeatherCurrent from '../../components/WeatherCurrent';
+
+import { render } from '@testing-library/react-native';
+
 import WeatherCoordinates from '../../components/WeatherCoordinates';
+import WeatherCurrent from '../../components/WeatherCurrent';
+import HomeScreen from '../HomeScreen';
 
 jest.mock('../../components/WeatherCoordinates', () =>
   jest.fn().mockReturnValue(null),
