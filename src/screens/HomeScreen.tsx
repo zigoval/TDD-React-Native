@@ -21,7 +21,9 @@ const HomeScreen = () => {
         </Text>
       </View>
       <WeatherCurrent />
-      <Text testID="home-screen-divider" style={styles.divider} />
+      <Text testID="home-screen-divider" style={styles.divider}>
+        Or
+      </Text>
       <WeatherCoordinates />
     </LinearGradient>
   );
