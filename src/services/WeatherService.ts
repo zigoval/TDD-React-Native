@@ -15,7 +15,7 @@ class WeatherService {
           params: {
             lat,
             lon,
-            appid: '928420da4f60f358e9ad8855a1dd165e',
+            appid: '928420da4f60f358e9ad8855a1dd165e', //INACTIVE KEY REPLACE WITH GOOD ONE
             units: 'metric',
           },
         },
