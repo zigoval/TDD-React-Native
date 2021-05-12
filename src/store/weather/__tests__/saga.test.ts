@@ -5,7 +5,7 @@ import {
   fetchWeather,
   fetchWeatherFailure,
   fetchWeatherSuccess,
-} from '../action';
+} from '../actions';
 import { weatherStartWorker } from '../saga';
 
 describe('store/eather', () => {

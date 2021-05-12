@@ -1,5 +1,4 @@
 import axios, { AxiosResponse } from 'axios';
-import { API_KEY } from 'react-native-dotenv';
 
 import { WeatherType } from '../types/Weather';
 import { CurrentWeatherRawResponseDto } from './dto/weather-service.dto';
@@ -16,7 +15,7 @@ class WeatherService {
           params: {
             lat,
             lon,
-            appid: API_KEY,
+            appid: '928420da4f60f358e9ad8855a1dd165e',
             units: 'metric',
           },
         },

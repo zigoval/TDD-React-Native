@@ -1,6 +1,6 @@
 import Status from '../../types/Status';
 import { nullWeather } from '../../types/Weather';
-import { Actions, ActionsTypes } from './action';
+import { Actions, ActionsTypes } from './actions';
 
 export type State = {};
 

@@ -3,7 +3,7 @@ import {
   fetchWeatherFailure,
   fetchWeatherSuccess,
   WEATHER_START_TYPE,
-} from './action';
+} from './actions';
 import { call, put, takeLatest } from '@redux-saga/core/effects';
 import WeatherService from '../../services/WeatherService';
 

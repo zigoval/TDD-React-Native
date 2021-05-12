@@ -5,7 +5,7 @@ import {
   fetchWeatherFailure,
   fetchWeatherReset,
   fetchWeatherSuccess,
-} from '../action';
+} from '../actions';
 import reducer from '../reducer';
 
 describe('Store/weather', () => {
